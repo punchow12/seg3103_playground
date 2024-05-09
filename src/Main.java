@@ -1,17 +1,40 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Ctrl+R or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+  public static void main( String[] args ) {
 
-            // Press Ctrl+D to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Cmd+F8.
-            System.out.println("i = " + i);
-        }
+    printToScreen("Newmath (type 'exit' to exit program)");
+
+    while (true) {
+
+      printToScreen("Numerator: " , false);
+      String numeratorInput = System.console().readLine();
+
+      if ("exit".equals(numeratorInput)) {
+        break;
+      }
+
+      printToScreen("Demoninator: " , false);
+      String denominatorInput = System.console().readLine();
+
+      int numerator = Integer.parseInt(numeratorInput);
+      int denominator = Integer.parseInt(denominatorInput);
+
+      int result = Newmath.div(numerator, denominator);
+      printToScreen(String.format("%d / %d = %d", numerator, denominator, result));
     }
+  }
+
+  private static void printToScreen(String message) {
+    printToScreen(message, true);
+  }
+
+  private static void printToScreen(String message, boolean newline) {
+    if (message != null) {
+      System.out.print(message);
+      if (newline) {
+        System.out.println("");
+      }
+    }
+  }
+
 }
