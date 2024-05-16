@@ -11,6 +11,8 @@ The following Repository consists of 3 Files:
 
 **Newmathtest**; Test Newmath functions with Junit Testcases, using assert.
 ![[\assets\screenshots\newmathtest.png]]
+
+![Screenshot](assets/screenshots/newmathtest.png)
 **Main**; The main class runs the code normally and output 6/2 which should be 3.
 No output
 ![[mainjavaclass.png]]
