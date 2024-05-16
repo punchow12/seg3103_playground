@@ -10,7 +10,7 @@ The class Newmath employs a new division function.
 The following Repository consists of 3 Files:
 
 **Newmathtest**; Test Newmath functions with Junit Testcases, using assert.
-![[newmathtest.png]]
+![[\assets\screenshots\newmathtest.png]]
 **Main**; The main class runs the code normally and output 6/2 which should be 3.
 No output
 ![[mainjavaclass.png]]
