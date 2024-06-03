@@ -1,6 +1,6 @@
 **Exercise 1**
 The following are my test case Values 
-![Screenshot](Lab2EX1T1.png)
+![Screenshot](Screenshots/Lab2EX1T1.png)
 
 |     | Test Case                         | Expected Result               | Actual Result                  | Verdict |
 | --- | --------------------------------- | ----------------------------- | ------------------------------ | ------- |
