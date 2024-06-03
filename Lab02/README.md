@@ -6,7 +6,7 @@ The following are my test case Values
 | --- | --------------------------------- | ----------------------------- | ------------------------------ | ------- |
 | T1  | ![Screenshot](Screenshots/Lab2EX1T1.png)| accepted                      | ![Screenshot](Screenshots/Lab2EX1T1_1.png) |fail|
 | T2  | ![Screenshot](Screenshots/Lab2EX1T2.png)      | accepted registration request | ![[Lab2EX1T2_2.png]]           | Pass    |
-| T3  | ![Screenshot](Screenshots/Lab2EX1T3.png)![[]] | accepted registration request | ![Screenshot](Screenshots/Lab2EX1T3_3.png) | Pass    |
+| T3  | ![Screenshot](Screenshots/Lab2EX1T3.png) | accepted registration request | ![Screenshot](Screenshots/Lab2EX1T3_3.png) | Pass    |
 
 
 **Exercise 2**
