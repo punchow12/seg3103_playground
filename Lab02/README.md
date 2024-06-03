@@ -1,20 +1,19 @@
 **Exercise 1**
 The following are my test case Values 
+![Screenshot](Lab2EX1T1.png)
 
-|     | Test Case                            | Expected Result               | Actual Result                        | Verdict |
-| --- | ------------------------------------ | ----------------------------- | ------------------------------------ | ------- |
-| T1  | ![[Pasted image 20240602183033.png]] | accepted                      | ![[Pasted image 20240602183150.png]] | fail    |
-| T2  | ![[Pasted image 20240602184128.png]] | accepted registration request | ![[Pasted image 20240602184149.png]] | Pass    |
-| T3  | ![[Pasted image 20240602184615.png]] | accepted registration request | ![[Pasted image 20240602184600.png]] | Pass    |
+|     | Test Case                         | Expected Result               | Actual Result                  | Verdict |
+| --- | --------------------------------- | ----------------------------- | ------------------------------ | ------- |
+| T1  | ![[Lab2EX1T1.png]]                | accepted                      | ![Screenshot](Lab2EX1T1_1.png) | fail    |
+| T2  | ![Screenshot](Lab2EX1T2.png)      | accepted registration request | ![[Lab2EX1T2_2.png]]           | Pass    |
+| T3  | ![Screenshot](Lab2EX1T3.png)![[]] | accepted registration request | ![Screenshot](Lab2EX1T3_3.png) | Pass    |
 
 
 **Exercise 2**
 These are the Junit Test Results.
-
-![[Junite Lab2 Test.png]]
-![[Junit Lab 2 test 2.png]]
-![[Junit Lab 2 test 3.png]]
-
+![Screenshot](Screenshots/Junite_Lab2_Test.png)
+![Screenshot](Screenshots/Junit_Lab_2_test_2.png)
+![Screenshot](Screenshots/Junit_Lab_2_test_3.png)
 
 Tutorial 2
 
