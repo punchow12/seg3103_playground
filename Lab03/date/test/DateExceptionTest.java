@@ -15,7 +15,7 @@ public class DateExceptionTest {
 	private int day;
 
 	private int expectedYear;
-	private int expectedMont;
+	private int expectedMonth;
 	private int expectedDay;
 
 	public DateExceptionTest(int y,int m,int d, int ey,int em,int ed){
@@ -24,7 +24,7 @@ public class DateExceptionTest {
 		month = m;
 		day = d;
 		expectedYear=ey;
-		expectedMont=em;
+		expectedMonth=em;
 		expectedDay=ed;
 	}
 
@@ -41,10 +41,10 @@ public class DateExceptionTest {
 
 	@Test(expected=IllegalArgumentException.class)
 	public void tests(){
-    		Date  date = new Date(year,month,day);
+		Date date = new Date(year,month,day);
 		Date next = date.nextDate();
 		Assert.assertEquals(expectedYear, next.getYear());
-		Assert.assertEquals(expectedMont, next.getMonth());
+		Assert.assertEquals(expectedMonth, next.getMonth());
 		Assert.assertEquals(expectedDay, next.getDay());
 	}
 }
