@@ -13,7 +13,7 @@ I fixed setDay according to Jacoco suggestions. I removed 4 testcases from DateT
 I comment out Date class method equals() , there is an improvement with overall 91%. but 2 Testcases had failed
 ![](assets/lb3-4.png)
 I commented out 1 line from equals()
-![asset](lb3-5.png)
+![](lb3-5.png)
 I added one more test case
 ![](assets/lb3-6.png)
 
