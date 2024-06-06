@@ -108,45 +108,13 @@ class DateTest {
     Date expectedTomorrow = new Date(3457, 1, 1);
     assertEquals(expectedTomorrow, today.nextDate());
   }
-
   @Test
-  void nextDate_invalid_tc16() {
-    assertThrows(
-      IllegalArgumentException.class,
-      () -> new Date(1500, 2, 31)
-    );
+  void nextDate_tc16() {
+    Date today = new Date(3451, 1, 31);
+    Date expectedTomorrow = new Date(3451, 2, 1);
+    assertEquals(expectedTomorrow, today.nextDate());
   }
 
-  @Test
-  void nextDate_invalid_tc17() {
-    assertThrows(
-      IllegalArgumentException.class,
-      () -> new Date(1500, 2, 29)
-    );
-  }
 
-  @Test
-  void nextDate_invalid_tc18() {
-    assertThrows(
-      IllegalArgumentException.class,
-      () -> new Date(-1, 10, 20)
-    );
-  }
-
-  @Test
-  void nextDate_invalid_tc19() {
-    assertThrows(
-      IllegalArgumentException.class,
-      () -> new Date(1458, 15, 12)
-    );
-  }
-
-  @Test
-  void nextDate_invalid_tc20() {
-    assertThrows(
-      IllegalArgumentException.class,
-      () -> new Date(1975, 6, -50)
-    );
-  }
 
 }
