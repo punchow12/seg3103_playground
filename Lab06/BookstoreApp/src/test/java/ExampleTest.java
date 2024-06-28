@@ -21,7 +21,7 @@ class ExampleTest {
     WebDriverManager.firefoxdriver().setup();
 
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    driver.get("http://localhost:8080/");
+    driver.get("http://localhost:8080/admin");
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
     //wait.until(ExpectedConditions.visibilityOfElementLocatedby(By.id("title")));
   }
@@ -45,7 +45,7 @@ class ExampleTest {
 
       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 
-      String expectedUrl = "http://sampleURL.com/login";
+      String expectedUrl = "http://localhost:8080/admin";
       String actualUrl = driver.getCurrentUrl();
 
       assertEquals(expectedUrl, actualUrl);
@@ -53,6 +53,6 @@ class ExampleTest {
   }
   @Test
   void makingSureJUnitCond() {
-    assertEquals(1, 1);
+      assertEquals(1, 1);
   }
 }

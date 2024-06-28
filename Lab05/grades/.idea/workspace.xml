@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a87a04f-2ef2-4afc-ba3a-e7e609f0621b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../kokok/Tictactoe/src/TicTacModelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kokok/Tictactoe/src/TicTacModelViewFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kokok/Tictactoe/src/TicTacToeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kokok/Tictactoe/src/TicTacToeEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/AddressBook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/BuddyInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/BuddyInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/Lab1 - Copy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/AddressBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/BuddyInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/Lab1 - Copy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SYSC3110Lab1_101154651/Lab1 - Copy/out/production/Lab1 - Copy/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2i8YbJiwCmGauFGn6XnfYII06zf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/ahmedbabar/Downloads/grades"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a87a04f-2ef2-4afc-ba3a-e7e609f0621b" name="Changes" comment="" />
+      <created>1718873742064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718873742064</updated>
+    </task>
+    <servers />
+  </component>
+</project>
