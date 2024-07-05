@@ -78,13 +78,13 @@ end
 defmodule Helper do
   def avg([]), do: 0
   def avg(list), do: Enum.sum(list) / Enum.count(list)
-  def failed_to_participate?(avg_homework, avg_exams, labs) do
-    avg_homework < 0.4 || avg_exams < 0.4 || num_labs(labs) < 3
+  def failed_to_participate?(avg_homework, avg_exams, num_labs) do
+    avg_homework < 0.4 || avg_exams < 0.4 || num_labs < 3
   end
   def calculate_grade(avg_labs, avg_homework, midterm, final) do
     0.2 * avg_labs + 0.3 * avg_homework + 0.2 * midterm + 0.3 * final
   end
-  # 2.4
+  # 2.4 2 additional helper functions to reduce redundancy
   def avg_exams(midterm, final) do
     (midterm + final) / 2
   end
